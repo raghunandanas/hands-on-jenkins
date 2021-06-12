@@ -9,8 +9,6 @@ RUN apk add --update python3
 # Install Python modules needed by the Python app
 COPY requirements.txt /usr/src/app/
 
-RUN which pip3
-
 RUN /usr/bin/pip3 install --no-cache-dir -r /usr/src/app/requirements.txt
 
 # Copy files required for the app to run
