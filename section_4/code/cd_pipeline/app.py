@@ -5,14 +5,9 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26383-1381845104-25.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26358-1381845043-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-25329-1381845415-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-23859-1381845509-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19708-1381845008-7.gif",
+    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19708-1381845008-7.gif?__cf_chl_jschl_tk__=b290261be2e3ee500bbf8e86d0fbacb005a0e608-1623982773-0-AV_ONBrx_g7yPAURrfcQXKjkvNE2RN_IQAMLmS_0WJdZ86q6N5o2zHzd3C_fyhXoST36L_opQOGwb9HK8TsdZF1sUyS2dmVyBh6Uomm9SjzjhwaWbt8GEWe7t19lK2uaL-O33vcfXpeFhoHwQ3JGPwyQerJHjuzraD-JcRyj1jpglJ5yMtAIxBoqsI2XwqmIgOx5-awmctczZ1286rPtzS8ynLdwo18Qxof5uuLFpEUY7xWPtgudIzb8QpX9pkz8UYk6wn52WcXLsR-SG0Qb9CblaxhqsLFKnJwF1xknTvgrWUdXVvNgawbsbYiMIS_09qdj47rIYL5BFKpNywcd1AJrC0n2I6icdjIT5AMj-MnPRchzQZ6JZaRjWQtI1kmN_pD0J-XnTVqlQQAj-Y1Q9srwQwXJkws3aezW9kaPqnA5lW8NEHX8oPuO3gB2YtKdb4UOP-MyhcTRIwHBwGcZ9_2pZ_rqxE-Im9pk1SZMqXNY",
     "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19667-1381844937-10.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3409-1381844582-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3391-1381844336-26.gif",
+     "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3391-1381844336-26.gif",
     "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-1376-1381846217-0.gif",
     "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26390-1381844163-18.gif",
     "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26388-1381844103-11.gif",
