@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # Install python 3 and pip
-RUN apk add --update python3
+RUN apk add py3-pip
 #yum install python3-pip
 #ln -s /usr/bin/pip3 /usr/local/bin/pip3
 
